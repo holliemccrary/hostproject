@@ -1,0 +1,482 @@
+body{
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.container{
+	max-width: 1280px;
+	margin: auto;
+}
+
+#welcome h1{
+	font-size: 4em;
+	margin-top: 5%;
+}
+
+#welcome h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+#welcome h1 a:hover{
+	color: #f2ee9f;
+	font-weight: 900;
+}
+
+#welcome h2{
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+#welcome{
+	background-color: #f2bfb3;
+	color: white;
+	overflow: hidden;
+	padding: 0 3%;
+	height: 400px;
+	text-align: center;
+}
+
+#menu{
+	background-color: #af5d4f;
+	text-align: center;
+}
+
+#menu nav{
+	height: 50px;
+	padding: 1.5%;
+}
+
+#menu nav a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu nav li{
+	display: inline;
+	list-style: none;
+	padding: 10%;
+}
+
+#menu nav li a:hover{
+	color: #f2ee9f;
+	font-weight: 900;
+}
+
+#about-blurb{
+	height: 400px;
+	background: url(../images/pampa.jpg) no-repeat center;
+	background-size: 62%;
+	background-color: #b1d8b4;
+	padding: 2.5%;
+}
+
+#about-blurb h3{
+	color: #184f21;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+	padding-top: 2%;
+}
+
+fieldset{
+	border: none;
+	padding-bottom: 3%;
+}
+
+legend{
+	padding-top: 3%;
+	font-size: 1.5em;
+}
+
+#contact-us input{
+	font-size: 1em;
+	padding: 10px 5px;
+	display: block;
+	width: 50%;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+#contact-us input:focus{
+	outline: none;
+	border-bottom: 3px solid #b1d8b4;
+}
+
+#contact-us #message-text{
+	display: block;
+	height: 300px;
+	width: 50%;
+	font-size: 1em;
+}
+
+#contact-us #message-text:focus{
+	outline: none;
+	border: 3px solid #b1d8b4;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+}
+::-moz-placeholder {
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+}
+:-ms-input-placeholder {
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+}
+
+#contact-us #submit-form{
+	border: none;
+	width: 20%;
+	background-color: #b1d8b4;
+	margin-left: 15%;
+	margin-bottom: 3%;
+	border-radius: 2px;
+}
+
+.message-sent{
+	display: none;
+	font-size: 1.5em;
+	color: #b1d8b4;
+	padding-top: 3%;
+
+}
+
+#shop-now{
+	text-align: center;
+	font-size: 3em;
+	font-weight: 800;
+	padding-top: 6%;
+}
+
+#shop-now a{
+	text-decoration: none;
+	color: white;
+}
+
+#shop-now a:hover{
+	color: #f2ee9f;
+	font-weight: 900;
+}
+
+#connect{
+	height: 70px;
+	background-color: #af5d4f;
+	color: white;
+	text-align: center;
+	padding-top: 2%;
+}
+
+#connect input{
+	font-family: 'Karla', sans-serif;
+	font-size: 1em;
+	padding-left: 4px;
+	border: none;
+	border-radius: 2px;
+}
+
+#connect input:focus{
+	outline: none;
+	border: 3px solid #b1d8b4;
+}
+
+footer{
+	height: 230px;
+	background-color: #f2bfb3;
+	color: white;
+	font-size: .8em;
+	padding: 1.5%;
+}
+
+#address{
+	display: block;
+	float: left;
+	width: 24%;
+}
+
+#address li{
+	list-style: none;
+}
+
+#hours{
+	display: block;
+	float: left;
+	width: 24%;
+}
+
+#hours li{
+	list-style: none;
+}
+
+#hours li:first-child{
+	font-weight: 900;
+}
+
+footer h4{
+	width: 24%;
+	float: left;
+	padding-top: 1%;
+	margin-right: 4%;
+	font-size: 2em;
+	text-align: center;
+}
+
+.social-media{
+	width: 24%;
+	float: left;
+}
+
+.social-media ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 10% 6%;
+}
+
+.social-media img{
+	width: 40px;
+	height: 40px;
+}
+
+.social-media h5{
+	font-size: 1em;
+	padding-top: 15%;
+	padding-left: 45%;
+}
+
+.social-media h5 a{
+	text-decoration: none;
+	color: white;
+}
+
+.social-media h5 a:hover{
+	color: #f2ee9f;
+	font-weight: 900;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1060px){
+	.social-media ul li{
+		display: inline-block;
+		padding-left: 9%;
+		padding-bottom: 1%;
+	}
+	.social-media img{
+		height: 30px;
+		width: 30px;
+	}
+	.social-media h5{
+		padding-top: 1%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px){
+	#welcome{
+		height: 350px;
+	}
+	#menu nav li{
+		padding: 6%;
+	}
+	#connect{
+		padding-top: 5%;
+	}
+	footer{
+		height: 425px;
+	}
+	#address{
+		width: 32%;
+	}
+	#hours{
+		width: 32%;
+	}
+	footer h4{
+		width: 32%;
+	}
+	.social-media{
+		width: 98%;
+		margin-left: 0;
+	}
+	.social-media ul li{
+		display: inline-block;
+		padding-left: 19%;
+		padding-bottom: 1%;
+	}
+	.social-media img{
+		height: 30px;
+		width: 30px;
+	}
+	.social-media h5{
+		padding-top: 0;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+	#welcome{
+		height: 325px;
+	}
+	#welcome h1{
+		font-size: 3.5em;
+	}
+	#menu nav li{
+		padding: 6%;
+		font-size: .8em;
+	}
+	#connect label{
+		display: block;
+	}	
+	footer{
+		height: 550px;
+	}
+	#address{
+		width: 48%;
+	}
+	#hours{
+		width: 48%;
+	}
+	footer h4{
+		width: 98%;
+		font-size: 1.5em;
+	}
+	.social-media{
+		width: 98%;
+		margin-left: 0;
+	}
+	.social-media ul li{
+		display: inline-block;
+		padding-left: 12%;
+		padding-bottom: 1%;
+	}
+	.social-media img{
+		height: 30px;
+		width: 30px;
+	}
+	.social-media h5{
+		text-align: center;
+		padding-top: 0;
+		padding-left: 4%;
+	}
+}	
+
+@media screen and (max-width: 480px){
+	#welcome{
+		height: 300px;
+	}
+	#welcome h1{
+		padding-top: 5%;
+		font-size: 3em;
+	}
+	#menu nav li{
+		padding: 6%;
+		font-size: .8em;
+	}
+	#about-blurb h3{
+		font-size: 1.5em;
+	}
+	#shop-now{
+		font-size: 2em;
+		padding-top: 5%;
+	}
+	#connect{
+		height: 80px;
+	}
+	#connect label{
+		display: block;
+	}
+	footer{
+		height: 600px;
+	}
+	#address{
+		width: 48%;
+	}
+	#hours{
+		width: 48%;
+	}
+	footer h4{
+		width: 98%;
+		font-size: 1.5em;
+	}
+	.social-media{
+		width: 98%;
+		margin-left: 0;
+	}
+	.social-media ul li{
+		display: inline-block;
+		padding-left: 10%;
+		padding-bottom: 1%;
+	}
+	.social-media img{
+		height: 30px;
+		width: 30px;
+	}
+	.social-media h5{
+		text-align: center;
+		padding-bottom: 1%;
+		padding-left: 4%;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px){
+	#welcome{
+		height: 325px;
+	}
+	#menu nav{
+		height: 200px;
+		padding-bottom: 12%;
+	}
+	#menu nav li{
+		display: block;
+		padding-left: 0;
+		text-align: center;
+		font-size: .8em;
+	}
+	#about-blurb{
+		background-size: 75%;
+	}
+	#connect{
+		height: 100px;
+	}
+	legend{
+		font-size: 1.2em;
+	}
+	#contact-us input{
+		width: 98%;
+		font-size: .7em;
+	}
+	#contact-us #message-text{
+		width: 98%;
+		font-size: .7em;
+	}
+	footer{
+		height: 700px;
+	}
+	#address{
+		width: 98%;
+	}
+	#hours{
+		width: 98%;
+	}
+	footer h4{
+		width: 98%;
+		font-size: 1.5em;
+	}
+	.social-media{
+		width: 98%;
+		margin-left: 0;
+	}
+	.social-media ul li{
+		display: inline-block;
+		padding-left: 10%;
+		padding-bottom: 1%;
+	}
+	.social-media img{
+		height: 30px;
+		width: 30px;
+	}
+	.social-media h5{
+		text-align: center;
+		padding-bottom: 1%;
+		padding-left: 4%;
+	}
+}
