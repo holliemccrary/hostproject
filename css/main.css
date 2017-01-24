@@ -163,6 +163,12 @@ legend{
 	font-weight: 900;
 }
 
+#connect .email-received{
+	color: #f2ee9f;
+	padding-top: 0;
+	display: none;
+}
+
 #connect{
 	height: 70px;
 	background-color: #af5d4f;

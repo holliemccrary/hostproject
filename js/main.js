@@ -1,5 +1,24 @@
 $(document).ready(function(){
-console.log("hi");
+
+		$("#email-me").on("submit", function(event){
+		event.preventDefault();
+		var data = $("#email-me").serializeArray();
+
+		$.ajax({
+			url: "https://formspree.io/hrmccrary@gmail.com",
+			method: "POST",
+			data: {data},
+			dataType: "json"
+		}).done(function(){
+			$(".email-received").show();
+			$("#email-me").trigger("reset");
+			setTimeout(function(){
+				$(".email-received").hide();
+			}, 15000);
+		});
+	});
+
+
 	$("#contact-info").on("submit", function(event){
 		event.preventDefault();
 		var data = $("#contact-info").serializeArray();
